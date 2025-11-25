@@ -2,7 +2,9 @@ import React from 'react'
 
 export const Headline = () => {
   return (
-    <div className='bg-gradient-to-b from-[#F1DBC8] to-pink-100 h-[640px] w-full'>
+    <div 
+        id='headline' 
+        className='bg-gradient-to-b from-[#F1DBC8] to-pink-100 h-[640px] w-full'>
         <div className='grid grid-cols-2 h-full gap-5'>
             <article className='col-span-1 flex justify-end items-center'>
                 <section className='flex flex-col gap-4'>
@@ -20,6 +22,8 @@ export const Headline = () => {
                     </button>
                 </section>
             </article>
+
+            
             <figure className='col-span-1 flex justify-start items-center relative overflow-hidden'>
                 <img 
                     className='object-cover h-[600px] w-auto absolute top-28 left-0'
