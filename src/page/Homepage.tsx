@@ -4,9 +4,9 @@ import { About } from '../components/navigation/About'
 
 export const Homepage = () => {
   return (
-    <div className=''>
+    <>
       <Headline />
       <About />
-    </div>
+    </>
   )
 }
