@@ -2,10 +2,10 @@ import React from 'react'
 
 export const Headline = () => {
   return (
-    <div 
+    <section 
         id='headline' 
-        className='bg-gradient-to-b from-[#F1DBC8] to-pink-100 h-[640px] w-full'>
-        <div className='grid grid-cols-2 h-full gap-5'>
+        className='bg-gradient-to-b from-[#F1DBC8] to-pink-100 w-full'>
+        <div className='grid grid-cols-2 min-h-[640px] gap-5'>
             <article className='col-span-1 flex justify-end items-center'>
                 <section className='flex flex-col gap-4'>
                     <h1 
@@ -17,7 +17,7 @@ export const Headline = () => {
                         Bringing you a range of high-quality skin care <br />
                         made from 100% organic
                     </p>
-                    <button className='bg-[#473936] text-white py-2 px-4'>
+                    <button className='bg-[#473936] text-white py-3 px-6 rounded-lg w-fit'>
                         Shop
                     </button>
                 </section>
@@ -26,11 +26,11 @@ export const Headline = () => {
             
             <figure className='col-span-1 flex justify-start items-center relative overflow-hidden'>
                 <img 
-                    className='object-cover h-[600px] w-auto absolute top-28 left-0'
+                    className='object-cover h-[600px] w-auto absolute top-24 left-0'
                     src="src/assets/Beauty-2.png" 
                     alt="beauty" />
             </figure>
         </div>
-    </div>
+    </section>
   )
 }

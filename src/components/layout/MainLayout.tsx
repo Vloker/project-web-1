@@ -7,7 +7,7 @@ export const MainLayout = () => {
   return (
     <div>
       <Header />
-      <main className='max-w-[1400px] w-full mx-auto px-4 sm:px-6 lg:px-8 min-h-screen'>
+      <main className='max-w-[1400px] w-full mx-auto min-h-screen'>
         <Outlet />
       </main>
       <Footer />
