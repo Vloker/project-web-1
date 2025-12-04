@@ -1,8 +1,8 @@
 import React from 'react'
-import { Headline } from '../components/navigation/Headline'
-import { About } from '../components/navigation/About'
-import { Offers } from '../components/navigation/Offers'
-import { Connect } from '../components/navigation/Connect'
+import { Headline } from '../components/navigation/home/Headline'
+import { About } from '../components/navigation/home/About'
+import { Offers } from '../components/navigation/home/Offers'
+import { Connect } from '../components/navigation/home/Connect'
 
 export const Homepage = () => {
   return (
