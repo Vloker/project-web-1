@@ -5,7 +5,7 @@ export const Connect = () => {
     <section id='connect' className='w-full bg-[#FFFFFF]'>
         <div className='flex flex-col items-center pt-10 pb-5'>
             {/* TITLE */}
-            <h1 className='text-2xl font-bold text-[#342623] text-center pb-10'>
+            <h1 className='text-3xl font-bold text-[#342623] text-center pb-10'>
                 CONNECTING YOU WITH EXPRETS IN <br/> 
                 SKIN CARE AND TREATMENTS
             </h1>
