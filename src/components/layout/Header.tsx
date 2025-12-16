@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router'
 
 export const Header = () => {
   return (
@@ -18,11 +17,10 @@ export const Header = () => {
           {/* Navigation */}
           <li className='col-span-3 col-start-4'>
             <ul className='flex items-center justify-end gap-6 text-sm'>
-              <li><NavLink to="/">HOME</NavLink></li>
-              <li><NavLink to="/">ABOUT</NavLink></li>
-              <li><NavLink to="/">PRODUCT</NavLink></li>
-              <li><NavLink to="/">BLOG</NavLink></li>
-              <li><NavLink to="/">CONTACT</NavLink></li>
+              <li><a href="#headline">HOME</a></li>
+              <li><a href="#about-us">ABOUT</a></li>
+              <li><a href="#product-home">PRODUCT</a></li>
+              <li><a href="#footers">CONTACT</a></li>
             </ul>
           </li>
 

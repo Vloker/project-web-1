@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Product = () => {
   return (
-    <section id='product-list' className='w-full bg-[#F7F1F1] text-center py-10'>
+    <section id='product-home' className='w-full bg-[#F7F1F1] text-center py-10'>
         <h1 className='text-3xl font-bold text-[#473936]'>TOP SELLING PRODUCTS</h1>
 
       <div className='grid grid-col-6 py-5'>

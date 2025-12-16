@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <footer className='w-full py-10 bg-[#CEA39C]'>
+    <footer id='footers' className='w-full py-10 bg-[#CEA39C]'>
         <div className='grid grid-cols-6 h-[300px]'>
           {/* Logo */}
           <div className='col-span-1 col-start-2 flex py-20'>
