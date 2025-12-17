@@ -1,16 +1,18 @@
 import React from 'react'
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-    children: React.ReactNode
-
+interface ButtonProps {
+    text?: string
+    onClick?: React.MouseEventHandler<HTMLButtonElement>
 }
-export const Button = ({children,...props}: ButtonProps) => {
+
+export const Button = ({text,onClick,...props}: ButtonProps) => {
   return (
     <button
-        className=''
+        onClick={onClick}
+        className='p-2 border border-amber-200 text-sm hover:bg-amber-300 w-fit'
         {...props}
         >
-        {children}
+        {text}
     </button>
   )
 }
