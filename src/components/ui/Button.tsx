@@ -9,7 +9,7 @@ export const Button = ({text,onClick,...props}: ButtonProps) => {
   return (
     <button
         onClick={onClick}
-        className='p-2 border border-amber-200 text-sm hover:bg-amber-300 w-fit'
+        className='p-3 border-none text-sm font-semibold bg-[#625149] hover:bg-black w-full rounded-md text-white'
         {...props}
         >
         {text}
